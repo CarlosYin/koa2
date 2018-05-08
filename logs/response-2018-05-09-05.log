@@ -1,0 +1,2384 @@
+[2018-05-09T05:45:12.927] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wechat_smallprogram/user/login
+request client ip:  ::1
+request body: 
+{"code":"0135JgUk1fPrFm0mVnVk11a4Uk15JgUI","encryptedData":"t7WSmpJFqrTqChQPws8BfcuqM3LfuPT7riNW141oscuWx31v17o72KhXnqYBiXM1CH9mBvSoTc4NV2RR+vl9bufqsKKMwJz6n+O8dZhJLhe+eyHITrq2fINuyUpnxgqcwUXVucL+TqnGyt4uHop7WxuXw6gVQd5u0EXp9xyibsVfUiINlWFoKufTtu/N8KYNMja5tXRXNLgJ5yB0Aj1LY9x74ESqWfn1HfuAfGrmNFH96uw4rY3mtt9ODKMMLFJDrxNPqzfDfNf0oIsioZNBbw7f+49JyXOpj6mqyqUvnsX1gTTRzBzkxFiqWAJ24O8+F8Hi+mwbS2R/nNiIBxYe5Wrp6kXcwqFoZoHmWjNCAaC1nTC3FOEyVbzwu5CAzgYvk9QdeZfQ6HRVzHDds3oVw8MfaZSiIhbOMkqK7mTDjW7awyVcGDBETtkalFVpwswlzrI+UzsaF40bPFyPRkqVrp/YfKOWwxL5IVZp6udOjEA=","iv":"8XUQPdDSKJ7pd0ODs5wnDQ==","userInfo":{"nickName":"静心方能顺意","gender":1,"language":"zh_CN","city":"","province":"Paraiba","country":"Brazil","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/9SxrsjYs9zZT7HAZkKDt942fxPo1h5H3Orj8K2xGEpPBsn4MZxL8bxRRKvnaIVhQJUCibbR8FWrBXWFUQxM1Gzg/132"}}
+response time: 305
+response status: 200
+response body: 
+{"code":20003,"message":"欢迎光临!","user":{"createdTime":"2018-05-08T21:12:29.921Z","_id":"5af212bdbc7ec92418ab4e23","openId":"oQPo248Ahv_PBjnJKdlXcZFU2zsY","nickName":"静心方能顺意","gender":"1","city":"","province":"Paraiba","country":"Brazil","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/9SxrsjYs9zZT7HAZkKDt942fxPo1h5H3Orj8K2xGEpPBsn4MZxL8bxRRKvnaIVhQJUCibbR8FWrBXWFUQxM1Gzg/132","__v":0}}
+*************** response log end ***************
+
+[2018-05-09T05:46:37.454] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wechat_smallprogram/user/login
+request client ip:  ::1
+request body: 
+{}
+response time: 49
+response status: 400
+response body: 
+{"code":400,"message":"code is required"}
+*************** response log end ***************
+
+[2018-05-09T05:51:19.825] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /public/apidoc/
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+"没有找到内容 - 404"
+*************** response log end ***************
+
+[2018-05-09T05:51:19.928] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 36
+response status: 401
+response body: 
+{"status":401,"result":{"err":"Authentication Error","errInfo":"Protected resource, use Authorization header to get access."}}
+*************** response log end ***************
+
+[2018-05-09T05:51:20.720] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /public/apidoc/index.html
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"没有找到内容 - 404"
+*************** response log end ***************
+
+[2018-05-09T05:51:20.748] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 401
+response body: 
+{"status":401,"result":{"err":"Authentication Error","errInfo":"Protected resource, use Authorization header to get access."}}
+*************** response log end ***************
+
+[2018-05-09T05:51:21.736] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /public/apidoc/index.html
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+"没有找到内容 - 404"
+*************** response log end ***************
+
+[2018-05-09T05:51:21.758] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 401
+response body: 
+{"status":401,"result":{"err":"Authentication Error","errInfo":"Protected resource, use Authorization header to get access."}}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.174] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/index.html
+request client ip:  ::1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/index.html","fd":19,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.204] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.css
+request client ip:  ::1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.css","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.205] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify.css
+request client ip:  ::1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify.css","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.206] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/css/style.css
+request client ip:  ::1
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/css/style.css","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.206] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/require.min.js
+request client ip:  ::1
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/require.min.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.206] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/polyfill.js
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/polyfill.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.252] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/main.js
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/main.js","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.273] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/jquery.min.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/jquery.min.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/lodash.custom.min.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/lodash.custom.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/locale.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/locale.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_project.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_project.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_data.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_data.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.286] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/send_sample_request.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/send_sample_request.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.300] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/semver.min.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 13
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/semver.min.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.320] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/webfontloader.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/webfontloader.js","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.321] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/path-to-regexp/index.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/path-to-regexp/index.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.321] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/list.min.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/list.min.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.321] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify/prettify.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify/prettify.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.323] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/handlebars.min.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/handlebars.min.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.335] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.372] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ca.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 24
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ca.js","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.380] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/de.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 32
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/de.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.383] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/es.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 34
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/es.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.384] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/fr.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 34
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/fr.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.384] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/it.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 33
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/it.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.385] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/nl.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 32
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/nl.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.393] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pl.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pl.js","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.395] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pt_br.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pt_br.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.437] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ro.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 33
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ro.js","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.438] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ru.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 33
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ru.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.438] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/tr.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 32
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/tr.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.438] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/vi.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 32
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/vi.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.442] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 33
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.442] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh_cn.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh_cn.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.463] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/handlebars_helper.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/handlebars_helper.js","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:51:45.479] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/diff_match_patch.min.js?v=1525816305257
+request client ip:  ::1
+request query:  {"v":"1525816305257"}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/diff_match_patch.min.js","fd":22,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:20.996] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user
+request client ip:  ::1
+request body: 
+undefined
+response time: 4
+response status: 401
+response body: 
+{"status":401,"result":{"err":"Authentication Error","errInfo":"Protected resource, use Authorization header to get access."}}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.175] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/index.html
+request client ip:  ::1
+request query:  {}
+response time: 20
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/index.html","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.222] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.css
+request client ip:  ::1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.css","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.223] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify.css
+request client ip:  ::1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify.css","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.224] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/css/style.css
+request client ip:  ::1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/css/style.css","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.224] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/require.min.js
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/require.min.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.225] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/polyfill.js
+request client ip:  ::1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/polyfill.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.264] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/main.js
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/main.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.285] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/jquery.min.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/jquery.min.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.289] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/lodash.custom.min.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/lodash.custom.min.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.293] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/locale.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/locale.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.309] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_project.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 16
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_project.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.319] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_data.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 24
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_data.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.332] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/send_sample_request.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 33
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/send_sample_request.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.332] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/semver.min.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 31
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/semver.min.js","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.345] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/webfontloader.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 28
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/webfontloader.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.345] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/path-to-regexp/index.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 27
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/path-to-regexp/index.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.352] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/img/favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/img/favicon.ico","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.365] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/list.min.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/list.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.368] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify/prettify.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify/prettify.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.369] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/handlebars.min.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/handlebars.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.384] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.424] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ca.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 13
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ca.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/de.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/de.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/es.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/es.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/fr.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/fr.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/it.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/it.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/nl.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/nl.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.446] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pl.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pl.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.446] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pt_br.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pt_br.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.446] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ro.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ro.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.447] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ru.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ru.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.453] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/tr.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/tr.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.453] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/vi.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/vi.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.471] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.471] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh_cn.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh_cn.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.544] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/handlebars_helper.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/handlebars_helper.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:55.570] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/diff_match_patch.min.js?v=1525816375269
+request client ip:  ::1
+request query:  {"v":"1525816375269"}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/diff_match_patch.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:52:59.124] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wechat_smallprogram/user/login
+request client ip:  ::1
+request body: 
+{"code":"","encryptedData":"","iv":""}
+response time: 78
+response status: 400
+response body: 
+{"code":400,"message":"code is not allowed to be empty"}
+*************** response log end ***************
+
+[2018-05-09T05:53:46.685] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wechat_smallprogram/user/login
+request client ip:  ::1
+request body: 
+{"code":"","encryptedData":"","iv":""}
+response time: 55
+response status: 400
+response body: 
+{"code":400,"message":"code is not allowed to be empty"}
+*************** response log end ***************
+
+[2018-05-09T05:53:50.549] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wechat_smallprogram/user/login
+request client ip:  ::1
+request body: 
+{"code":"123","encryptedData":"","iv":""}
+response time: 4
+response status: 400
+response body: 
+{"code":400,"message":"encryptedData is not allowed to be empty"}
+*************** response log end ***************
+
+[2018-05-09T05:53:54.502] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wechat_smallprogram/user/login
+request client ip:  ::1
+request body: 
+{"code":"123","encryptedData":"aaa","iv":""}
+response time: 4
+response status: 400
+response body: 
+{"code":400,"message":"iv is not allowed to be empty"}
+*************** response log end ***************
+
+[2018-05-09T05:53:57.548] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wechat_smallprogram/user/login
+request client ip:  ::1
+request body: 
+{"code":"123","encryptedData":"aaa","iv":"ccc"}
+response time: 203
+response status: 200
+response body: 
+{"code":40000,"message":"40000错误","errcode":{}}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.267] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/index.html
+request client ip:  ::1
+request query:  {}
+response time: 17
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/index.html","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.302] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.css
+request client ip:  ::1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.css","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.306] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify.css
+request client ip:  ::1
+request query:  {}
+response time: 12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify.css","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.306] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/css/style.css
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/css/style.css","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.306] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/polyfill.js
+request client ip:  ::1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/polyfill.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.308] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/require.min.js
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/require.min.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.350] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/main.js
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/main.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.382] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/jquery.min.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/jquery.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.382] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/lodash.custom.min.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/lodash.custom.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.383] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/locale.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/locale.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.383] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_project.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_project.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.383] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_data.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_data.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.383] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/send_sample_request.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/send_sample_request.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.418] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/img/favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 13
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/img/favicon.ico","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.433] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/semver.min.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 19
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/semver.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.433] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/webfontloader.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 18
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/webfontloader.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.433] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/path-to-regexp/index.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 17
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/path-to-regexp/index.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.433] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/list.min.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 17
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/list.min.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.434] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify/prettify.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 17
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify/prettify.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.457] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/handlebars.min.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 26
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/handlebars.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.479] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 16
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.479] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ca.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 15
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ca.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/de.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 16
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/de.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/es.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 15
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/es.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/fr.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/fr.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.484] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/it.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/it.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.512] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/nl.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 15
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/nl.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.517] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pl.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 16
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pl.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.518] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pt_br.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 13
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pt_br.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.521] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ro.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ro.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.521] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ru.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 14
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ru.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.524] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/tr.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 15
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/tr.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.533] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/vi.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/vi.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.536] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.542] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh_cn.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh_cn.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.576] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/handlebars_helper.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/handlebars_helper.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:55:32.590] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/diff_match_patch.min.js?v=1525816532355
+request client ip:  ::1
+request query:  {"v":"1525816532355"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/diff_match_patch.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.565] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/index.html
+request client ip:  ::1
+request query:  {}
+response time: 20
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/index.html","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.620] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.css
+request client ip:  ::1
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.css","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.620] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify.css
+request client ip:  ::1
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify.css","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.621] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/css/style.css
+request client ip:  ::1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/css/style.css","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.622] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/polyfill.js
+request client ip:  ::1
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/polyfill.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.627] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/require.min.js
+request client ip:  ::1
+request query:  {}
+response time: 13
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/require.min.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.675] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/main.js
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/main.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.680] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/img/favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/img/favicon.ico","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.713] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/jquery.min.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 18
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/jquery.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.713] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/lodash.custom.min.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 14
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/lodash.custom.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.713] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/locale.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 13
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/locale.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.717] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_project.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_project.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.717] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_data.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_data.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.717] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/send_sample_request.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/send_sample_request.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.741] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/semver.min.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/semver.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.741] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/webfontloader.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/webfontloader.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.743] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/path-to-regexp/index.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/path-to-regexp/index.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.743] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/list.min.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/list.min.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.744] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify/prettify.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify/prettify.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.749] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/handlebars.min.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/handlebars.min.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.770] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/de.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 13
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/de.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.771] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ca.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ca.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.800] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/es.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 36
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/es.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.800] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/fr.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 34
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/fr.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.800] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/it.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 33
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/it.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.800] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/nl.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 32
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/nl.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.805] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pl.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pl.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.806] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pt_br.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pt_br.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.815] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ro.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ro.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.824] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ru.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ru.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.825] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/tr.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/tr.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.841] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/vi.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 25
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/vi.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.842] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 25
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.843] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh_cn.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 24
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh_cn.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.916] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 68
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.934] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/handlebars_helper.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/handlebars_helper.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:56:43.977] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/diff_match_patch.min.js?v=1525816603682
+request client ip:  ::1
+request query:  {"v":"1525816603682"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/diff_match_patch.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.018] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/index.html
+request client ip:  ::1
+request query:  {}
+response time: 25
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/index.html","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.059] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.css
+request client ip:  ::1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.css","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.059] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify.css
+request client ip:  ::1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify.css","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.059] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/css/style.css
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/css/style.css","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.059] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/polyfill.js
+request client ip:  ::1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/polyfill.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.059] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/require.min.js
+request client ip:  ::1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/require.min.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.108] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/main.js
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/main.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.121] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/img/favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/img/favicon.ico","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.135] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/jquery.min.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/jquery.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.136] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/lodash.custom.min.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/lodash.custom.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.185] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/locale.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 37
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/locale.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.185] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_project.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 36
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_project.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.186] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/api_data.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 33
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/api_data.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.187] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/send_sample_request.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 34
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/send_sample_request.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.187] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/semver.min.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 32
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/semver.min.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.187] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/webfontloader.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 29
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/webfontloader.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.222] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/path-to-regexp/index.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/path-to-regexp/index.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.222] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/list.min.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/list.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.222] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/prettify/prettify.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/prettify/prettify.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.252] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/bootstrap.min.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/bootstrap.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.252] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/handlebars.min.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/handlebars.min.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ca.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 14
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ca.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.286] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/de.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 15
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/de.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.286] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/es.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 14
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/es.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.287] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/fr.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 14
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/fr.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.287] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/it.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/it.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.287] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/nl.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/nl.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.321] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pl.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pl.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.322] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/pt_br.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 11
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/pt_br.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.322] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ro.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ro.js","fd":25,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.322] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/ru.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/ru.js","fd":26,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.322] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/tr.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 8
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/tr.js","fd":27,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.324] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/vi.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/vi.js","fd":28,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.341] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.341] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/locales/zh_cn.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/locales/zh_cn.js","fd":24,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.419] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/utils/handlebars_helper.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/utils/handlebars_helper.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-09T05:58:10.439] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /assets/apiDoc/vendor/diff_match_patch.min.js?v=1525816690121
+request client ip:  ::1
+request query:  {"v":"1525816690121"}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/yinhuilong/Desktop/CarlosFiles/work/太阳堂/明星读书小程序api/koa2-API-scaffold/assets/apiDoc/vendor/diff_match_patch.min.js","fd":23,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+

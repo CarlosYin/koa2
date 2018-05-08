@@ -1,0 +1,4 @@
+build/*.js
+assets/*.js
+assets/apiDoc/*.js
+src/lib/*.js

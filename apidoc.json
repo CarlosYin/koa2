@@ -1,0 +1,13 @@
+{
+    "name": "API明星读书", 
+    "version": "0.0.1", 
+    "description": "明星读书小程序 API文档",
+    "title": "明星读书小程序 API", 
+    "url": "http://localhost:3004",
+    "sampleUrl": "http://localhost:3004",
+    "forceLanguage": "zh-cn",
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}
