@@ -1,6 +1,8 @@
 Koa2 RESTful API 服务器脚手架
 =============================
 
+From:https://github.com/yi-ge/koa2-API-scaffold
+
 这是一个基于Koa2的轻量级RESTful API Server脚手架，支持ES6。
 
 **注意：因升级Koa版本至2.3.0，为配合相应的依赖项，故需要Node.js版本大于等于v8.0.0（建议v9.9.0），NPM大于等于v5.0.0。建议使用yarn代替npm。**
