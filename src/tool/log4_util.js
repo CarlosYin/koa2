@@ -104,7 +104,7 @@ var formatReqLog = function (req, resTime) {
   logText += "request originalUrl:  " + req.originalUrl + "\n"
 
   //客户端ip
-  logText += "request client ip:  " + req.ip + "\n"
+  logText += "request client ip:  " + req.header.realip + "\n"
 
   //开始时间
   var startTime
