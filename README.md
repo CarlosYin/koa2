@@ -4,12 +4,14 @@ Koa2 RESTful API 服务器脚手架
 From:https://github.com/yi-ge/koa2-API-scaffold
 
 新增 log4js 做日志记录 存放目录logs
+
 新增 apiDoc api文档   存放目录 assets/apiDoc
+
 新增 mongodb 数据库
 
 
-
-#以下是原git说明:
+以下是原git说明:
+------------
 
 这是一个基于Koa2的轻量级RESTful API Server脚手架，支持ES6。
 
