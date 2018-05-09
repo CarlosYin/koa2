@@ -28,6 +28,7 @@ app.use(async (ctx, next) => {
   //响应间隔时间
   var ms
   try {
+    console.log(ctx.request,ctx.ip,ctx.ips)
     //开始进入到下一个中间件
     await next()
     ms = new Date() - start
